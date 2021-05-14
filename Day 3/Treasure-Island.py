@@ -22,6 +22,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
+
 left_or_right = input("You awaken in an empty field. There are no buildings in sight, only a path leading left or right. Which direction would you like to travel? Type 'left', or 'right'. \n").lower()
 if left_or_right == "right":
     print("You walked off of a cliff and died. Game over.")
