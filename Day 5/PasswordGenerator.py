@@ -17,19 +17,19 @@ pass_symbols = []
 pass_numbers = []
 
 #  Create list of random letters
-for letter in range(0, nr_letters):
+for letter in range(1, nr_letters + 1):
     random_letter = random.randint(0, len(letters) - 1)
     pass_letters.append(letters[random_letter])
 
 
 #  Create list of random numbers
-for number in range(0, nr_numbers):
+for number in range(1, nr_numbers + 1):
     random_number = random.randint(0, len(numbers) - 1)
     pass_numbers.append(numbers[random_number])
 
 
 #  Create list of random symbols
-for symbol in range(0, nr_symbols):
+for symbol in range(1, nr_symbols + 1):
     random_symbol = random.randint(0, len(symbols) - 1)
     pass_symbols.append(symbols[random_symbol])
 
